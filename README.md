@@ -57,7 +57,7 @@ weather-info-service
 ## Usage
 Once the service is running, you can make requests to get weather information. For example:
 ```
-GET /weather?city=London
+GET /weather?city=Tokyo
 ```
 
 ## Contributing
