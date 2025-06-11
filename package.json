@@ -1,0 +1,22 @@
+{
+  "name": "weather-info-service",
+  "version": "1.0.0",
+  "description": "A microservice that provides weather information based on city input.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.21.2",
+    "serverless-dotenv-plugin": "^6.0.0",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "serverless": "^2.0.0"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
