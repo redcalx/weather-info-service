@@ -19,6 +19,4 @@ class WeatherController {
     }
 }
 
-console.log('API_KEY:', process.env.API_KEY);
-
 module.exports = new WeatherController(weatherService);

@@ -1,13 +1,15 @@
 # Weather Info Service
 
 ## Overview
-The Weather Info Service is a microservice that provides weather information based on city names. It fetches data from an external weather API and serves it through a RESTful interface.
+<!--The Weather Info Service is a microservice that provides weather information based on city names. It fetches data from an external weather API and serves it through a RESTful interface.-->
+Microsserviço desenvolvido em um ambiente linux usando o WSL Ubuntu e AWS para realizar o deploy do serviço. Sua função é provisionar informações climáticas através de uma API externa do OpenWeatherMap.org buscando através de nomes de cidades e os servindo através de uma interface RESTful. 
 
-## Project Structure
+## Estrutura do Projeto 
 ```
 weather-info-service
 ├── src
 │   ├── index.js
+│   ├── lambda.js
 │   ├── services
 │   │   └── weatherService.js
 │   ├── controllers
@@ -20,27 +22,27 @@ weather-info-service
 └── README.md
 ```
 
-## Setup Instructions
+## Configuração
 
-1. **Clone the Repository**
+1. **Clonar o Repositório**
    ```bash
    git clone <repository-url>
    cd weather-info-service
    ```
 
-2. **Install Dependencies**
-   Make sure you have Node.js installed. Then run:
+2. **Instalar Dependências**
+   Certifique se o  Node.js está instalado. Depois rode o comando:
    ```bash
    npm install
    ```
 
-3. **Configure Environment Variables**
-   Create a `.env` file in the root directory and add your API keys and configuration settings:
+3. **Configurar Variáveis de Ambiente**
+   Crie um arquivo `.env` no diretório raiz e adicione suas chaves API e outras configurações:
    ```
-   WEATHER_API_KEY=your_api_key_here
+   WEATHER_API_KEY=sua_chave_api_aqui
    ```
 
-4. **Run the Service Locally**
+4. **Rode o Serviço Localmente**
    You can start the service locally using:
    ```bash
    npm start
