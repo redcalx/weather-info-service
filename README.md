@@ -2,7 +2,9 @@
 
 ## Overview
 <!--The Weather Info Service is a microservice that provides weather information based on city names. It fetches data from an external weather API and serves it through a RESTful interface.-->
-Microsserviço desenvolvido em um ambiente linux usando o WSL Ubuntu e AWS para realizar o deploy do serviço. Sua função é provisionar informações climáticas através de uma API externa do OpenWeatherMap.org buscando através de nomes de cidades e os servindo através de uma interface RESTful. 
+Microsserviço desenvolvido em ambiente Linux (WSL com Ubuntu) e implantado na AWS. Sua principal função é fornecer informações metereológicas obtidas a partir da API externa do OpenWeatherMap.org, com base em nomes de cidades, expondo os dados por meio de uma interface RESTful. O serviço é projetado para ser escalável, modular e facilmente integrável com outras aplicações.
+
+Microservice developed in a Linux environment (WSL with Ubuntu) and deployed on AWS. Its main function is to provide weather information retrieved from the external API of OpenWeatherMap.org, based on city names, exposing the data through a RESTful interface. The service is designed to be scalable, modular, and easily integrable with other applications.
 
 ## Estrutura do Projeto 
 ```
@@ -26,12 +28,12 @@ weather-info-service
 
 1. **Clonar o Repositório**
    ```bash
-   git clone <repository-url>
+   git clone <repositorio-url>
    cd weather-info-service
    ```
 
 2. **Instalar Dependências**
-   Certifique se o  Node.js está instalado. Depois rode o comando:
+   Certifique se o Node.js está instalado. Depois rode o comando:
    ```bash
    npm install
    ```
@@ -42,26 +44,23 @@ weather-info-service
    WEATHER_API_KEY=sua_chave_api_aqui
    ```
 
-4. **Rode o Serviço Localmente**
-   You can start the service locally using:
+4. **Rodando o Serviço Localmente**
+   Você pode iniciar o service localmente usando:
    ```bash
    npm start
    ```
 
-5. **Deploying to AWS**
-   To deploy the service using the Serverless Framework, ensure you have the Serverless CLI installed and configured. Then run:
+5. **Deploy na AWS**
+   Para fazer o deploy do serviço usando o framework Serverless, certifique-se de que você tem o Serverless CLI instalado e configurado. Depois, rode:
    ```bash
    serverless deploy
    ```
 
-## Usage
-Once the service is running, you can make requests to get weather information. For example:
+## Uso
+Quando o serviço já estiver rodando, você pode fazer requests para conseguir informações sobre o clima. Por exemplo:
 ```
 GET /weather?city=Tokyo
 ```
-
-## Contributing
-Feel free to submit issues or pull requests if you would like to contribute to the project.
 
 ## License
 This project is licensed under the MIT License.
