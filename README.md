@@ -33,34 +33,34 @@
    ```
 
 2. **Instale as Dependências**
-   <br>– Certifique se o Node.js está instalado. Depois rode o comando:
+   <br> Certifique se o Node.js está instalado. Depois rode o comando:
    ```bash
    npm install
    ```
 
 3. **Configurar Variáveis de Ambiente**
-   <br>– Crie um arquivo `.env` no diretório raiz e adicione suas chaves API e outras configurações:
+   <br> Crie um arquivo `.env` no diretório raiz e adicione suas chaves API e outras configurações:
    ```
    WEATHER_API_KEY=sua_chave_api_aqui
    ```
 
 4. **Rodando o Serviço Localmente**
-   <br>– Você pode iniciar o service localmente usando:
+   <br> Você pode iniciar o service localmente usando:
    ```bash
    npm start
    ```
 
 5. **Deploy na AWS**
-   <br>– Para fazer o deploy do serviço usando o framework Serverless, certifique-se de que você tem o Serverless CLI instalado e configurado. Depois, rode:
+   <br> Para fazer o deploy do serviço usando o framework Serverless, certifique-se de que você tem o Serverless CLI instalado e configurado. Depois, rode:
    ```bash
    serverless deploy
    ```
 
 ## 💻 Uso 
-<br>– Quando o serviço já estiver rodando, você pode fazer requests para conseguir informações sobre o clima. Por exemplo:
+<br> Quando o serviço já estiver rodando, você pode fazer requests para conseguir informações sobre o clima. Por exemplo:
 ```
 GET /weather?city=Tokyo
 ```
 
 ## 🪪 License 
-<br>– This project is licensed under the MIT License.
+<br> This project is licensed under the MIT License.
