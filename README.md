@@ -36,7 +36,7 @@
 
 2. **Instale as Dependências**
 
-   Certifique-se de que o Node.js está instalado. Depois rode o comando:
+   Certifique de que o Node.js está instalado. Depois rode o comando:
 
    ```bash
    npm install
