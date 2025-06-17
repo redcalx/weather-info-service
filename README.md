@@ -2,9 +2,9 @@
 
 ## 📝 Sobre
 <!--The Weather Info Service is a microservice that provides weather information based on city names. It fetches data from an external weather API and serves it through a RESTful interface.-->
-▸ Microsserviço desenvolvido usando Node.js e Express em um ambiente Linux (WSL com Ubuntu) e implantado na AWS. Sua principal função é fornecer informações metereológicas obtidas a partir da API externa do OpenWeatherMap.org, com base em nomes de cidades, expondo os dados por meio de uma interface RESTful. O serviço é projetado para ser escalável, modular e facilmente integrável com outras aplicações.
+▸ Microsserviço desenvolvido usando Node.js e Express em um ambiente Linux (WSL com Ubuntu) e implantado na AWS,  com uma pipeline de CI/CD implementada via GitHub Actions, que automatiza processos de build, testes e deploy Sua principal função é fornecer informações metereológicas obtidas a partir da API externa do OpenWeatherMap.org, com base em nomes de cidades, expondo os dados por meio de uma interface RESTful. O serviço é projetado para ser escalável, modular e facilmente integrável com outras aplicações.
 
-▸ Microservice developed using Node.js and Express in a Linux environment (WSL with Ubuntu) and deployed on AWS. Its main function is to provide weather information retrieved from the external OpenWeatherMap.org API, based on city names, exposing the data through a RESTful interface. The service is designed to be scalable, modular, and easily integrable with other applications.
+▸ Microservice developed using Node.js and Express in a Linux environment (WSL with Ubuntu) and deployed on AWS, with a CI/CD pipeline implemented via GitHub Actions, automating the processes of build, testing, and deployment. Its main function is to provide weather information retrieved from the external API OpenWeatherMap.org, based on city names, exposing the data through a RESTful interface. The service is designed to be scalable, modular, and easily integrable with other applications.
 
 ## 🗃️ Estrutura do Projeto
 

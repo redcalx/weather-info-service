@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "dependencies": {
     "axios": "^1.9.0",
@@ -15,7 +15,9 @@
     "serverless-http": "^3.2.0"
   },
   "devDependencies": {
-    "serverless": "^2.0.0"
+    "jest": "^30.0.0",
+    "serverless": "^2.0.0",
+    "supertest": "^7.1.1"
   },
   "author": "Your Name",
   "license": "ISC"
